@@ -1,0 +1,40 @@
+# Ignore shapefiles and geospatial files
+*.shp
+*.shx
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.cpg
+*.qpj
+*.tif
+*.tiff
+*.img
+*.aux
+*.ovr
+*.xml
+*.map
+*.gdb
+*.gpkg
+*.kmz
+*.kml
+
+# Ignore temporary or backup files
+*.tmp
+*.bak
+*.backup
+~*
+
+# Ignore hidden system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+.venv/
+ENV/
+env/
